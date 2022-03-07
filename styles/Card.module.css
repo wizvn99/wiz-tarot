@@ -1,0 +1,14 @@
+.card {
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  transition: ease-in-out 1s;
+}
+
+.card-shuffle {
+  top: 50%;
+  left: 50%;
+}
+
+.selected-card {
+}
