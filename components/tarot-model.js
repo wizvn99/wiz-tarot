@@ -38,7 +38,7 @@ const TarotModel = () => {
   useEffect(() => {
     const { current: container } = refContainer
     if (container && !renderer) {
-      const scW = (container.clientWidth * 3) / 4
+      const scW = container.clientWidth
       const scH = container.clientHeight
 
       const renderer = new THREE.WebGLRenderer({

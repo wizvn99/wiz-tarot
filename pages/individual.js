@@ -24,14 +24,14 @@ const Individual = () => {
   const [selectedCard, setSelectedCard] = React.useState([])
 
   const onShuffel = async () => {
-    setCardList(shuffleCardList(cardData))
+    setCardList(shuffleCardList(cardList))
   }
 
   const chooseCard = (card, index) => {
     setSelectedCard([...selectedCard, card])
     const splicedData = cardList
     splicedData.splice(index, 1)
-    setCardList(spliceData)
+    setCardList(splicedData)
   }
 
   return (

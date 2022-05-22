@@ -16,11 +16,10 @@ import TarotModel from '../components/tarot-model'
 const Page = () => {
   return (
     <Layout>
+      <NoSsr>
+        <TarotModel />
+      </NoSsr>
       <Container>
-        <NoSsr>
-          <TarotModel />
-        </NoSsr>
-
         <Box
           borderRadius="lg"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}

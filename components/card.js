@@ -9,7 +9,7 @@ export const Card = ({ card, index, onChoose }) => {
         className={styles['card']}
         width="300px"
         height="537px"
-        src={`/cards/${card}`}
+        src={`/backside.jpg`}
         alt={card}
         loading="lazy"
       />
